@@ -144,7 +144,7 @@ impl_naive_datetime_types!(
 impl_naive_datetime_types!(
     Date,
     "string",
-    "naive-date",
+    "date",
     format_description!("[year]-[month]-[day]")
 );
 impl_naive_datetime_types!(
